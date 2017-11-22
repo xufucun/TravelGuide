@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">TravelGuide</string>
+
+    <string name="category_attractions">景点</string>
+    <string name="category_cate">餐饮</string>
+    <string name="category_shopping">购物</string>
+    <string name="category_stay">住宿</string>
+
+
+
 </resources>

@@ -40,7 +40,7 @@ public class StayFragment  extends Fragment {
         informationArrayList.add(new Information("名称","简介"));
         informationArrayList.add(new Information("名称","简介"));
 
-        InformationAdapter adapter = new InformationAdapter(getContext(),  R.color.category_colors,informationArrayList);
+        InformationAdapter adapter = new InformationAdapter(getContext(),  R.color.category_4,informationArrayList);
         ListView listView = (ListView) view.findViewById(R.id.list);
         listView.setAdapter(adapter);
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {

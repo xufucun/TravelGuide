@@ -31,6 +31,7 @@
             android:textAppearance="?android:textAppearanceMedium"
             android:textColor="@android:color/white"
             android:textStyle="bold"
+            android:textSize="18sp"
             tools:text="lutti" />
 
         <TextView

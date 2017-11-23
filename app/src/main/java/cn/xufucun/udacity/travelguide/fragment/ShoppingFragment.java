@@ -27,18 +27,16 @@ public class ShoppingFragment  extends Fragment {
 
         View view = inflater.inflate(R.layout.content_list,container,false);
         final ArrayList<Information> informationArrayList = new ArrayList<Information>();
-        informationArrayList.add(new Information("名称","简介"));
-        informationArrayList.add(new Information("名称","简介"));
-        informationArrayList.add(new Information("名称","简介"));
-        informationArrayList.add(new Information("名称","简介"));
-        informationArrayList.add(new Information("名称","简介"));
-        informationArrayList.add(new Information("名称","简介"));
-        informationArrayList.add(new Information("名称","简介"));
-        informationArrayList.add(new Information("名称","简介"));
-        informationArrayList.add(new Information("名称","简介"));
-        informationArrayList.add(new Information("名称","简介"));
-        informationArrayList.add(new Information("名称","简介"));
-
+        informationArrayList.add(new Information("名称1","简介"));
+        informationArrayList.add(new Information("名称2","简介"));
+        informationArrayList.add(new Information("名称3","简介"));
+        informationArrayList.add(new Information("名称4","简介"));
+        informationArrayList.add(new Information("名称5","简介"));
+        informationArrayList.add(new Information("名称6","简介"));
+        informationArrayList.add(new Information("名称7","简介"));
+        informationArrayList.add(new Information("名称8","简介"));
+        informationArrayList.add(new Information("名称9","简介"));
+        informationArrayList.add(new Information("名称10","简介"));
         InformationAdapter adapter = new InformationAdapter(getContext(),  R.color.category_3,informationArrayList);
         ListView listView = (ListView) view.findViewById(R.id.list);
         listView.setAdapter(adapter);

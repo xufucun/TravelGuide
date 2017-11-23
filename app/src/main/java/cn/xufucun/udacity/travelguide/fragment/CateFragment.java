@@ -36,7 +36,6 @@ public class CateFragment  extends Fragment {
         informationArrayList.add(new Information("孝河藕","临沂城北白沙埠镇西孝友村前有一小河，名叫孝河，为“王祥卧鱼，孝感天地”之处。"));
         informationArrayList.add(new Information("莒南驴肉","“天上的龙肉，地上的驴肉”，莒南毛驴纯饲青草等无公害绿色植物，"));
         informationArrayList.add(new Information("莒南板栗","莒南板栗个大、色艳、光滑油亮、果肉嫩黄细腻、香甜可口，素有“糯香栗”之称。"));
-        informationArrayList.add(new Information("名称","简介"));
 
         InformationAdapter adapter = new InformationAdapter(getContext(),  R.color.category_2,informationArrayList);
         ListView listView = (ListView) view.findViewById(R.id.list);

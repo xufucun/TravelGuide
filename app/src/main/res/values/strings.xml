@@ -6,4 +6,17 @@
     <string name="category_shopping">购物</string>
     <string name="category_stay">住宿</string>
 
+    
+    <string name="dxdxg">地下大峡谷</string>
+    <string name="yms">沂蒙山</string>
+    <string name="tswc">天上王城</string>
+    <string name="lykjg">临沂科技馆</string>
+    <string name="ysjd">沂蒙红色影视基地</string>
+    <string name="mlg">孟良崮</string>
+    <string name="dgj">临沂东关街</string>
+    <string name="gjysc">国际影视城</string>
+    <string name="ypdt">云瀑洞天</string>
+    <string name="dxygh">地下萤光湖</string>
+    <string name="chg">地下萤光湖</string>
+
 </resources>

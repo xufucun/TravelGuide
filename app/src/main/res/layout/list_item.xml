@@ -16,34 +16,32 @@
         android:layout_width="match_parent"
         android:layout_height="@dimen/list_item_height"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
         android:layout_alignParentTop="true"
-        android:layout_toRightOf="@id/image"
+        android:layout_toEndOf="@id/image"
         android:orientation="vertical"
-        android:paddingLeft="16dp">
+        android:paddingStart="@dimen/item_name_padding_left">
 
         <TextView
             android:id="@+id/tv_name"
             android:layout_width="match_parent"
-            android:layout_height="44dp"
-            android:layout_weight="1"
+            android:layout_height="@dimen/item_name_height"
             android:gravity="bottom"
             android:textAppearance="?android:textAppearanceMedium"
             android:textColor="@android:color/white"
             android:textStyle="bold"
-            android:textSize="18sp"
-            tools:text="lutti" />
+            android:textSize="@dimen/item_name_text_size"
+            tools:text="地下大峡谷" />
 
         <TextView
             android:id="@+id/tv_introduction"
             android:layout_width="match_parent"
-            android:layout_height="44dp"
+            android:layout_height="@dimen/item_name_height"
             android:layout_below="@id/tv_name"
-            android:layout_weight="1"
             android:gravity="top"
             android:maxLines="1"
             android:textAppearance="?android:textAppearanceMedium"
             android:textColor="@android:color/white"
-            tools:text="one" />
+            tools:text="介绍" />
     </RelativeLayout>
 </RelativeLayout>

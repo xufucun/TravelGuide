@@ -41,6 +41,7 @@
             android:layout_below="@id/tv_name"
             android:layout_weight="1"
             android:gravity="top"
+            android:maxLines="1"
             android:textAppearance="?android:textAppearanceMedium"
             android:textColor="@android:color/white"
             tools:text="one" />

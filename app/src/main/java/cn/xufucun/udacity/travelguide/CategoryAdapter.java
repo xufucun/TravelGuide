@@ -17,6 +17,7 @@ import cn.xufucun.udacity.travelguide.fragment.StayFragment;
 public class CategoryAdapter extends FragmentPagerAdapter {
 
     private Context mContext;
+    private static int COUNT = 4;
 
 
     public CategoryAdapter(Context context, FragmentManager fm) {
@@ -39,7 +40,7 @@ public class CategoryAdapter extends FragmentPagerAdapter {
 
     @Override
     public int getCount() {
-        return 4;
+        return COUNT;
     }
 
     @Override

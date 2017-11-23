@@ -17,6 +17,92 @@
     <string name="gjysc">国际影视城</string>
     <string name="ypdt">云瀑洞天</string>
     <string name="dxygh">地下萤光湖</string>
-    <string name="chg">地下萤光湖</string>
+    <string name="chg">彩虹谷</string>
+
+    <string name="dxdxg_i">大峡谷的地下景色很壮观，独特的地下景观。就是人太多，但是真的…</string>
+    <string name="yms_i">自然景观非常好，山川连绵，民风纯朴，青山绿水，风景如画。最美…</string>
+    <string name="tswc_i">景区根据自身环境划分为多个体验区，其中，更有两个景区主推的精…</string>
+    <string name="lykjg_i">这个地方未成年儿童，是免费参观的。但是里面的4d影院10元票…</string>
+    <string name="ysjd_i">爱国教育的主题基地 在当地经常有党员来这里学习观摩…</string>
+    <string name="mlg_i">孟良崮位于山东省蒙阴县东南的芦山，属蒙山山系，面积仅1.5平…</string>
+    <string name="dgj_i">景区环境优美，不过门票有点贵。尤其适合小孩和老人。节目挺丰富…</string>
+    <string name="gjysc_i">沂蒙云瀑洞天景区依山傍水，山间巨石林立，其间最著名的便是那块…</string>
+    <string name="ypdt_i">两岸景色优美，很美丽的景区，而且溶洞里非常凉快。总体不错，整…</string>
+    <string name="dxygh_i">两岸景色优美，很美丽的景区，而且溶洞里非常凉快。总体不错，整…</string>
+    <string name="chg_i">沂水雪山彩虹谷景区经过2015年改造提升后景区的面貌焕然一新…</string>
+
+    <string name="shop1">商品1</string>
+    <string name="shop2">商品2</string>
+    <string name="shop3">商品3</string>
+    <string name="shop4">商品4</string>
+    <string name="shop5">商品5</string>
+    <string name="shop6">商品6</string>
+    <string name="shop7">商品7</string>
+    <string name="shop8">商品8</string>
+    <string name="shop9">商品9</string>
+    <string name="shop10">商品10</string>
+
+    <string name="shop1_i">商品1介绍</string>
+    <string name="shop2_i">商品2介绍</string>
+    <string name="shop3_i">商品3介绍</string>
+    <string name="shop4_i">商品4介绍</string>
+    <string name="shop5_i">商品5介绍</string>
+    <string name="shop6_i">商品6介绍</string>
+    <string name="shop7_i">商品7介绍</string>
+    <string name="shop8_i">商品8介绍</string>
+    <string name="shop9_i">商品9介绍</string>
+    <string name="shop10_i">商品10介绍</string>
+
+    <string name="hotel">酒店1</string>
+    <string name="hote2">酒店2</string>
+    <string name="hote3">酒店3</string>
+    <string name="hote4">酒店4</string>
+    <string name="hote5">酒店5</string>
+    <string name="hote6">酒店6</string>
+    <string name="hote7">酒店7</string>
+    <string name="hote8">酒店8</string>
+    <string name="hote9">酒店9</string>
+    <string name="hotel0">酒店10</string>
+
+    <string name="hotel1_i">酒店1介绍</string>
+    <string name="hotel2_i">酒店2介绍</string>
+    <string name="hotel3_i">酒店3介绍</string>
+    <string name="hotel4_i">酒店4介绍</string>
+    <string name="hotel5_i">酒店5介绍</string>
+    <string name="hotel6_i">酒店6介绍</string>
+    <string name="hotel7_i">酒店7介绍</string>
+    <string name="hotel8_i">酒店8介绍</string>
+    <string name="hotel9_i">酒店9介绍</string>
+    <string name="hotel10_i">酒店10介绍</string>
+
+    <string name="food1">小吃1</string>
+    <string name="food2">小吃2</string>
+    <string name="food3">小吃3</string>
+    <string name="food4">小吃4</string>
+    <string name="food5">小吃5</string>
+    <string name="food6">小吃6</string>
+    <string name="food7">小吃7</string>
+    <string name="food8">小吃8</string>
+    <string name="food9">小吃9</string>
+    <string name="food10">小吃10</string>
+
+    <string name="food1_i">小吃1介绍</string>
+    <string name="food2_i">小吃2介绍</string>
+    <string name="food3_i">小吃3介绍</string>
+    <string name="food4_i">小吃4介绍</string>
+    <string name="food5_i">小吃5介绍</string>
+    <string name="food6_i">小吃6介绍</string>
+    <string name="food7_i">小吃7介绍</string>
+    <string name="food8_i">小吃8介绍</string>
+    <string name="food9_i">小吃9介绍</string>
+    <string name="food10_i">小吃10介绍</string>
+
+
+
+
+
+
+
+
 
 </resources>

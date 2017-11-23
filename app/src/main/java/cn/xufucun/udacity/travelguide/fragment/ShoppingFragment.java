@@ -27,16 +27,17 @@ public class ShoppingFragment  extends Fragment {
 
         View view = inflater.inflate(R.layout.content_list,container,false);
         final ArrayList<Information> informationArrayList = new ArrayList<Information>();
-        informationArrayList.add(new Information("名称1","简介"));
-        informationArrayList.add(new Information("名称2","简介"));
-        informationArrayList.add(new Information("名称3","简介"));
-        informationArrayList.add(new Information("名称4","简介"));
-        informationArrayList.add(new Information("名称5","简介"));
-        informationArrayList.add(new Information("名称6","简介"));
-        informationArrayList.add(new Information("名称7","简介"));
-        informationArrayList.add(new Information("名称8","简介"));
-        informationArrayList.add(new Information("名称9","简介"));
-        informationArrayList.add(new Information("名称10","简介"));
+        informationArrayList.add(new Information(getString(R.string.shop1),getString(R.string.shop1_i)));
+        informationArrayList.add(new Information(getString(R.string.shop2),getString(R.string.shop2_i)));
+        informationArrayList.add(new Information(getString(R.string.shop3),getString(R.string.shop3_i)));
+        informationArrayList.add(new Information(getString(R.string.shop4),getString(R.string.shop4_i)));
+        informationArrayList.add(new Information(getString(R.string.shop5),getString(R.string.shop5_i)));
+        informationArrayList.add(new Information(getString(R.string.shop6),getString(R.string.shop6_i)));
+        informationArrayList.add(new Information(getString(R.string.shop7),getString(R.string.shop7_i)));
+        informationArrayList.add(new Information(getString(R.string.shop8),getString(R.string.shop8_i)));
+        informationArrayList.add(new Information(getString(R.string.shop9),getString(R.string.shop9_i)));
+        informationArrayList.add(new Information(getString(R.string.shop10),getString(R.string.shop10_i)));
+
         InformationAdapter adapter = new InformationAdapter(getContext(),  R.color.category_3,informationArrayList);
         ListView listView = (ListView) view.findViewById(R.id.list);
         listView.setAdapter(adapter);

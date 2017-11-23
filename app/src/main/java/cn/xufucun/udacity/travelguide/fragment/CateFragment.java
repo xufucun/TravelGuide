@@ -41,12 +41,6 @@ public class CateFragment  extends Fragment {
         InformationAdapter adapter = new InformationAdapter(getContext(),  R.color.category_2,informationArrayList);
         ListView listView = (ListView) view.findViewById(R.id.list);
         listView.setAdapter(adapter);
-        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                Information information = informationArrayList.get(i);
-            }
-        });
 
 
         return view;
